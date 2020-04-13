@@ -1,0 +1,48 @@
+#header-nav {
+
+	background-color: grey;
+	border-radius: 0;
+	border: 2px solid black;
+}
+#navbar-brand{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;	
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-header button.navbar-toggle , span.icon-bar{
+	border: 2px solid black;
+}
+.dab{
+	background-color: black;
+	height: 2px
+}
+.www {
+	background-color: grey;
+	margin: 20px;
+	padding: 1px 10px 10px 10px;
+}
+.nonveg{
+	color: black;
+	font-weight: normal;
+	margin-top: 5px;
+}
+.para{
+	color: black;
+}
+@media(max-width: 768px){
+#bs-example-navbar-collapse-1{
+	background-color: white;
+}
+}
+
